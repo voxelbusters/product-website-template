@@ -8,7 +8,7 @@ Below is a concise example demonstrating  the usage:
 - Loading and showing ads with placement Ids.
 - Implementing callbacks for successful and failed ad operations.
 
-```csharp
+```csharp title="C#"
 // Import required namespaces
 using VoxelBusters.CoreLibrary;
 using VoxelBusters.AdsKit;
