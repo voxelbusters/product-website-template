@@ -7,7 +7,7 @@ To get started with this project, follow these steps:
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/avezqureshi14/ads-kit-docs
+    git clone https://github.com/voxelbusters/ads-kit-docs
     ```
 
 2. **Navigate to the project directory:**
