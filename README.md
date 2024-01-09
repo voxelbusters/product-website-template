@@ -9,14 +9,8 @@ To get started with this project, follow these steps:
     ```bash
     git clone https://github.com/voxelbusters/ads-kit-docs
     ```
-
-2. **Navigate to the project directory:**
-
-    ```bash
-    cd docusaurus-client
-    ```
-
-3. **Install dependencies:**
+    
+2. **Install dependencies:**
 
     ```bash
     npm install
