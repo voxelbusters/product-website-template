@@ -4,7 +4,7 @@ The Ads Kit settings file, known as AdsKitSettings, is a scriptable object asset
 
 ## Access Settings
 
-To configure the Ads Kit settings for {{product}} , follow these steps:
+To configure the Ads Kit settings for  , follow these steps:
 
 1. Open your Unity project and navigate to the "Window" menu.
 

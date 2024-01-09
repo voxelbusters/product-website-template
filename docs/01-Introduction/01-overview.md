@@ -1,3 +1,11 @@
+---
+sidebar_position: 1
+slug: /
+---
+
+
+
+
 ## Cross Platform Ads Kit – Your All-in-One Advertising Solution! 🚀
 
 Tired of juggling multiple ads plugins for iOS and Android separately? Say hello to the Cross Platform Ads Kit – your new best friend for making ads easy-peasy on both platforms with a single unified API!
