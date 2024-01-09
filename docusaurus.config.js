@@ -78,6 +78,7 @@ const config = {
       minHeadingLevel: 2,
       maxHeadingLevel: 6,
     },
+    
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'ads KIT',
@@ -100,6 +101,7 @@ const config = {
           // },
         ],
       },
+      
       footer: {
         style: 'dark',
         links: [
@@ -148,7 +150,12 @@ const config = {
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
+        additionalLanguages: ['csharp'], // Add C# to the list of languages
+        
+        // Load Prism language definition for C#
+        // For example:
       },
+      
     }),
 };
 
