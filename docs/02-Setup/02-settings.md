@@ -14,10 +14,6 @@ To configure the Ads Kit settings for  , follow these steps:
 
 > Once the settings file is accessed, it gets created in Assets/Resources folder
 
-
-
-
-
 The settings in the Ads Kit plugin are organized into three sections :
 
 ## General
@@ -45,8 +41,6 @@ The "Ad Network Preferences" allows developers to configure ad network preferenc
 
 When an ad needs to be served at a specific ad placement, the plugin internally retrieves the list of ad network preferences for the ad type and requests an ad from that list. This ensures that the appropriate ad network is utilized for serving ads at the designated ad placements.
 
-
-
 #### Ad Placements
 
 Ad placements are locations within an app or game where ads are displayed, defined and configured.
@@ -60,31 +54,22 @@ For each unique Ad that needs to be displayed, you need to create an Ad Placemen
 - **Ad Type**: Specify the one of the ad types from the drop down. 
 - **Ad Placement Id**: This is the id used to manage ads via code. Give a unique and readable name which you use to refer this ad placement in your codebase.
 - **Auto Load Option**: Enabling this option initiates automatic loading as soon as the ad networks are initialized or when an ad finishes serving and is ready for the next load.
-  
-  
-  
-  ##### Banner Ad Customization
+
+##### Banner Ad Customization
+
 - **BannerAdOptionsAsset**: For banner ads, developers can utilize the BannerAdOptionsAsset feature to configure the position, size, and offset of the banner ad. This allows for customization of how the banner ad is displayed for a specific ad placement.
-
-
 
 #### Ad Content Default Settings
 
 This feature provides the option to set default configurations for ad types. Currently, only banner ad types have options to configure.
 
-
-
 #### Test Devices
 
 - Developers can provide a list of test device IDs for iOS and Android platforms, allowing them to test the functionality of ads on specific devices.
 
-
-
 ## Services
 
 The Services section provides an overview of the available ad networks supported by the plugin. This currently includes AdMob, AppLovin, Unity Ads, Vungle(LiftOff), and TapJoy.
-
-
 
 #### Enable Ad Networks
 
@@ -101,16 +86,10 @@ The Services section provides an overview of the available ad networks supported
 
 > In further releases, we will automate configuring the original Ad Network Settings panel with the details entered in our plugin.
 
- 
-
 ## Help
 
 Access support and other plugin resources from this section.
 
-
-
 ## Conclusion
 
 The Ad Kit Settings in the Ads Kit plugin is a valuable tool for setting up Ads Kit. With its user-friendly interface, developers can easily configure and manage ad content. 
-
-

@@ -14,25 +14,35 @@ There are two ways to obtain a consent form provider:
 
 - **Custom Provider**: If you don't have AdMob Ad Network enabled, you need to create a class that implements the `IConsentFormProvider` interface, providing the necessary consent logic and UI based on your requirements.
   
+  
+  
+  AdServices offers a method to fetch IConsentFormProvider instance with GetConsentFormProvider. Either you can use this method or directly pass the custom consent provider implementation.
+  
+  ```csharp
+  AdServices.GetConsentFormProvider()
+  ```
+  
+  
+  
   Example:
   
   ```csharp
   private IConsentFormProvider GetConsentFormProvider()
   {
-   IConsentFormProvider[] availableProviders = AdServices.FindConsentFormProviders();
-   if(availableProviders.Length == 0)
+   IConsentFormProvider availableProvider = AdServices.GetConsentFormProvider();
+   if(availableProvider == null)
    {
      throw new Exception("No IConsentFormProvider implementation found. Implement IConsentFormProvider interface or enable AdMob for a default consent form provider.");
    }
-   return availableProviders[0];
-  }
+   return availableProvider;
+  } 
   ```
 
-### 
+> If you are having your own custom consent form provider by implementing IConsentFormProvider interface, AdServices **automatically detects** and returns it when you call **GetConsentFormProvider** method of **AdServices**
 
-> If you are having your own custom consent form provider by implementing IConsentFormProvider interface, AdServices **automatically detects** and returns it when you call FindConsentFormProviders method of AdServices
 
-### Passing the Consent Form Provider to `Initialise`
+
+### Initialise
 
 The `Initialise` method requires an instance of the `IConsentFormProvider` that you've obtained ahead:
 
@@ -49,7 +59,7 @@ public void InitialiseAdsManager(IConsentFormProvider consentProvider)
 ```
 
 ```csharp
-InitialiseAdsManager(GetConsentFormProvider())
+InitialiseAdsManager(AdServices.GetConsentFormProvider())
 ```
 
 In this example, the `InitialiseAdsManager` function takes an `IConsentFormProvider` as a parameter (`consentProvider`). Once you have either the default or your custom `IConsentFormProvider`, you pass it to `InitialiseAdsManager` when calling it from your game's initialization logic.

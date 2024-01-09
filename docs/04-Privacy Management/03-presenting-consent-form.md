@@ -17,11 +17,11 @@ Presenting a consent form using the Ads Kit plugin involves offering users the o
    
    - If AdMob is enabled, the plugin provides a default implementation that uses AdMob’s User Messaging Platform (UMP) framework, compliant with the IAB's Transparency & Consent Framework (TCF) specification.
 
-3. **Implement Your Own Consent Form Provider (Optional)**:
+3. **Custom Consent Form Provider (Optional)**:
    
    - If you wish to customize the consent form, implement the **IConsentFormProvider** interface to create your provider and handle the display and result of user consent.
 
-4. **Initialize Ads Manager with Consent Form Provider**:
+4. **Initialize Ads Manager**:
    
    - Pass the obtained consent provider to the `InitialiseAdsManager` method which initializes the Ads Manager:
      

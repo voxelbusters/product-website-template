@@ -34,7 +34,7 @@ public class AdsManager : MonoBehaviour, IAdLifecycleEventListener
     public void InitializeAds(Action<bool> onComplete)
     {
        // This could be a default provider or your own custom implementation
-        IConsentFormProvider consentProvider = GetConsentFormProvider();
+        IConsentFormProvider consentProvider = AdServices.GetConsentFormProvider();
         var operation = AdsManager.Initialise(consentProvider);
         operation.OnComplete += (result) =>
         {
@@ -61,17 +61,6 @@ public class AdsManager : MonoBehaviour, IAdLifecycleEventListener
     {
         // HideAd only applicable to Banner Ad Type alone.
         AdsManager.HideAd(placementId, destroy: false);
-    }
-
-    // Utilities
-    private IConsentFormProvider GetConsentFormProvider()
-    {
-     IConsentFormProvider[] availableProviders = AdServices.FindConsentFormProviders();
-     if(availableProviders.Length == 0)
-     {
-       throw new Exception("No IConsentFormProvider implementation found. Implement IConsentFormProvider interface or enable AdMob for a default consent form provider.");
-     }
-     return availableProviders[0];
     }
 
     #region IAdLifecycleEventListener implementation
