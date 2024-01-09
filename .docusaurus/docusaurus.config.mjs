@@ -39,6 +39,14 @@ export default {
       }
     ]
   ],
+  "plugins": [
+    [
+      "D:\\1 MONGO DB\\DOCUSAURAS\\intern\\ads-kit-docs\\node_modules\\@easyops-cn\\docusaurus-search-local\\dist\\server\\server\\index.js",
+      {
+        "hashed": true
+      }
+    ]
+  ],
   "themeConfig": {
     "image": "img/docusaurus-social-card.jpg",
     "navbar": {
@@ -341,7 +349,6 @@ export default {
     "static"
   ],
   "customFields": {},
-  "plugins": [],
   "themes": [],
   "scripts": [],
   "headTags": [],

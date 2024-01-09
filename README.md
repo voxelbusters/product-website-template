@@ -32,6 +32,17 @@ npm start
 
 This command will start a local development server and open your Docusaurus website in your default web browser.
 
+
+## Search plugin will not work in Development mode follow below commands:
+Use the below command npm serve in the build version to see search plugin working
+
+```bash
+npm run build
+```
+```bash
+npm serve
+```
+
 ## Building for Production
 
 To build the website for production, use the following command:
