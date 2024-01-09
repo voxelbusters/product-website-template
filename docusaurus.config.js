@@ -60,18 +60,24 @@ const config = {
       }),
     ],
   ],
-  plugins:[
+  plugins: [
     [
-      require.resolve("@easyops-cn/docusaurus-search-local"),
-      ({
+      '@easyops-cn/docusaurus-search-local',
+      {
         hashed: true,
-      }),
+        docsRouteBasePath: ['/'], 
+        blogRouteBasePath: ['/blog'], 
+      },
     ],
   ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
+       tableOfContents: {
+      minHeadingLevel: 2,
+      maxHeadingLevel: 6,
+    },
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'ads KIT',
