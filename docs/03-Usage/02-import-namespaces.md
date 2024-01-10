@@ -1,3 +1,4 @@
+
 # Import Namespaces
 
 Before you can use the Ads Kit Plugin classes, you need to import the necessary namespaces in your script file. Add the following lines at the top of your script:

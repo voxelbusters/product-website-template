@@ -1,3 +1,4 @@
+
 # Ads Management
 
 In this section you can learn on how to load, show and hide/destroy ads.

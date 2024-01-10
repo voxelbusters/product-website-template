@@ -1,3 +1,5 @@
+
+
 ## Events Handling
 
 > For getting the callbacks for events you can either implement IAdLifeCycleListener or attach a callback to **AsyncOperation** returned by the api methods.

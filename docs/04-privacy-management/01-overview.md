@@ -1,3 +1,4 @@
+
 # GDPR Basics
 
 ### Scope and Applicability
