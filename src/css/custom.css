@@ -34,7 +34,8 @@
   --ifm-color-primary-lightest: #769dfe;
   --ifm-background-color: #000000;
 }
-
+.pagination-nav__label,
+.card h2,
 title,
 .breadcrumbs__link,
 .menu__link,
