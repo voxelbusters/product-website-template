@@ -8,8 +8,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'ads KIT',
-  tagline: 'Soon to become Home Page',
+  title: 'Ads Kit',
+  tagline: 'Your All-in-One Advertising Solution! 🚀',
   favicon: 'img/SmallIcon.png',
 
   // Set the production url of your site here
@@ -81,9 +81,9 @@ const config = {
     
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'ads KIT',
+        title: 'Ads Kit',
         logo: {
-          alt: 'ads KIT logo',
+          alt: 'Ads Kit logo',
           src: 'img/SmallIcon.png',
         },
         items: [
