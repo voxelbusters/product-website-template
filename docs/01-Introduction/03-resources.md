@@ -8,4 +8,4 @@
 
 [API Reference] - Pending
 
-[Wishlist]("https://feedback.screenrecorderkit.voxelbusters.com/")
+<!-- [Wishlist]("https://feedback.screenrecorderkit.voxelbusters.com/") -->
