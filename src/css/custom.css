@@ -51,14 +51,10 @@ p{
 }
 
 .markdown h2,h1{
-  margin-bottom: 1rem !important;
-}
-
-.markdown ol li{
-  line-height: 0.8rem;
+  margin-bottom: 0.8rem !important;
 }
 
 blockquote{
   border-left: 2px solid var(--ifm-color-primary);
-  background: #f2f2f2;
+  background: #44495029;
 }
