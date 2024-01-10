@@ -9,14 +9,14 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'ads KIT',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'Soon to become Home Page',
   favicon: 'img/SmallIcon.png',
 
   // Set the production url of your site here
   url: 'https://adskit.voxelbusters.com/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/docs',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.

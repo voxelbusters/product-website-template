@@ -1,11 +1,11 @@
-
 import React from 'react'
 
-const App = () => {
-  console.log("hey from app")
+const index = () => {
   return (
-    <div>App</div>
+    <>
+    .
+    </>
   )
 }
 
-export default App
+export default index
