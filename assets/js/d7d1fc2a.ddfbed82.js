@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocusaurus_client=self.webpackChunkdocusaurus_client||[]).push([[176],{8879:t=>{t.exports=JSON.parse('{"title":"Introduction","description":"Introduction Subsections","slug":"/category/introduction","permalink":"/category/introduction","navigation":{"next":{"title":"overview","permalink":"/docs"}}}')}}]);
