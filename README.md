@@ -49,15 +49,15 @@ npm run build
 
 To deploy the website on gh-pages, use the following command:
 
-# Step: 1 Push the changes to be deployed on github 
+## Step: 1 Push the changes to be deployed on github 
 
-# Step: 2 Build the website for production
+## Step: 2 Build the website for production
 
 ```bash
 npm run build
 ```
-# Step: 3 Run the below command in your terminal and it will automatically deploy all your last pushed changes to gh-pages 
-# Note : Make sure that there are no-broken links in the project
+## Step: 3 Run the below command in your terminal and it will automatically deploy all your last pushed changes to gh-pages 
+Note : Make sure that there are no-broken links in the project
 
 ```bash
 cmd /C "set GIT_USER=voxelbusters&& yarn deploy"
