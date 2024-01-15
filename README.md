@@ -1,4 +1,4 @@
-# ads-kit-docs
+# Product Website Template
 
 ## Installation
 
