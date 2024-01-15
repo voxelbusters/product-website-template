@@ -18,7 +18,7 @@ To get started with this project, follow these steps:
 
 ## Usage
 
-After installing the dependencies, just update the docusaurus.config.js and config.json file after that just update `docs` folder as per your requirement:
+After installing the dependencies, just update the `docusaurus.config.js` and `config.json` file after that just update `docs` folder as per your requirement:
 
 For Starting the Application after above alteration use the below command
 ```bash
