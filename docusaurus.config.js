@@ -9,7 +9,7 @@ const config = {
   url: '', //enter main url of site eg:https://adskit.voxelbusters.com/
   baseUrl: '/',
 
-  organizationName: 'voxelbusters', 
+  organizationName: 'ORGANISATION NAME', 
   projectName: '', //enter github repo name
 
   onBrokenLinks: 'throw',
@@ -51,36 +51,6 @@ const config = {
         blogRouteBasePath: ['/blog'], 
       },
     ],
-    // [
-    //   "docusaurus-plugin-papersaurus",
-    //   {
-    //     autoBuildPdfs: true,
-    //     keepDebugHtmls: false,
-    //     sidebarNames: ["tutorialSidebar"], // Replace with your actual sidebar names
-    //     rootDocIds: [
-    //       { version: "default", rootDocId: "start_overview" },
-    //       // Add other versions if needed
-    //     ],
-    //     addDownloadButton: true,
-    //     downloadButtonText: "Download as PDF",
-    //     ignoreDocs: ["licenses"],
-    //     stylesheets: [],
-    //     scripts: [],
-    //     coverPageHeader: `...`, // Add your HTML code here
-    //     coverPageFooter: `...`, // Add your HTML code here
-    //     getPdfCoverPage: (siteConfig, pluginConfig, pageTitle, version) => {
-    //       return `...`; // Add your HTML code here
-    //     },
-    //     getPdfPageHeader: (siteConfig, pluginConfig, pageTitle) => {
-    //       return `...`; // Add your HTML code here
-    //     },
-    //     getPdfPageFooter: (siteConfig, pluginConfig, pageTitle) => {
-    //       return `...`; // Add your HTML code here
-    //     },
-    //     author: "Voxel Busters",
-    //     footerParser: /© Voxel Busters\d{4}-\d{2}-\d{2}Page \d* \/ \d*/g,
-    //   },
-    // ],
   ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -136,8 +106,8 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Voxel Busters',
-                to: 'https://www.voxelbusters.com',
+                label: 'Organisation Name',
+                to: 'https://www.example.com',
               },
               {
                 label: 'GitHub',
@@ -146,7 +116,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Voxel Busters`,
+        copyright: `Copyright © ${new Date().getFullYear()} Organisation Name`,
       },
       prism: {
         theme: prismThemes.github,

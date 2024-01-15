@@ -4,10 +4,10 @@
 
 To get started with this project, follow these steps:
 
-1. **Clone the repository:**
+1. **Fork the template repository and clone new forked repository:**
 
-    ```bash
-    git clone https://github.com/voxelbusters/ads-kit-docs
+    ```
+    Template Repository : https://github.com/voxelbusters/product-website-template
     ```
     
 2. **Install dependencies:**
@@ -61,6 +61,6 @@ npm run build
 Note : Make sure that there are no-broken links in the project
 
 ```bash
-cmd /C "set GIT_USER=voxelbusters&& yarn deploy"
+cmd /C "set GIT_USER=GIT_USER_NAME&& yarn deploy"
 ```
 
