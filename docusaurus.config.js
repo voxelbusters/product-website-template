@@ -2,15 +2,15 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Ads Kit',
-  tagline: 'Your All-in-One Advertising Solution! 🚀',
-  favicon: 'img/SmallIcon.png',
+  title: 'Title',
+  tagline: 'Tagline 🚀',
+  favicon: '', //enter image path [add an image in static/img folder and write its path here for example : img/SmallIcon.png]
 
-  url: 'https://adskit.voxelbusters.com/',
+  url: '', //enter main url of site eg:https://adskit.voxelbusters.com/
   baseUrl: '/',
 
   organizationName: 'voxelbusters', 
-  projectName: 'ads-kit-website', 
+  projectName: '', //enter github repo name
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -29,12 +29,12 @@ const config = {
           sidebarPath: './sidebars.js',
           routeBasePath: '/',
           editUrl:
-            'https://github.com/voxelbusters/ads-kit-website/tree/main',
+            '', //enter edit url eg:https://github.com/voxelbusters/ads-kit-website/tree/main
         },
         blog: {
           showReadingTime: true,
           editUrl:
-            'https://github.com/voxelbusters/ads-kit-website/tree/main',
+          '', //enter edit url eg:https://github.com/voxelbusters/ads-kit-website/tree/main
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -51,6 +51,36 @@ const config = {
         blogRouteBasePath: ['/blog'], 
       },
     ],
+    // [
+    //   "docusaurus-plugin-papersaurus",
+    //   {
+    //     autoBuildPdfs: true,
+    //     keepDebugHtmls: false,
+    //     sidebarNames: ["tutorialSidebar"], // Replace with your actual sidebar names
+    //     rootDocIds: [
+    //       { version: "default", rootDocId: "start_overview" },
+    //       // Add other versions if needed
+    //     ],
+    //     addDownloadButton: true,
+    //     downloadButtonText: "Download as PDF",
+    //     ignoreDocs: ["licenses"],
+    //     stylesheets: [],
+    //     scripts: [],
+    //     coverPageHeader: `...`, // Add your HTML code here
+    //     coverPageFooter: `...`, // Add your HTML code here
+    //     getPdfCoverPage: (siteConfig, pluginConfig, pageTitle, version) => {
+    //       return `...`; // Add your HTML code here
+    //     },
+    //     getPdfPageHeader: (siteConfig, pluginConfig, pageTitle) => {
+    //       return `...`; // Add your HTML code here
+    //     },
+    //     getPdfPageFooter: (siteConfig, pluginConfig, pageTitle) => {
+    //       return `...`; // Add your HTML code here
+    //     },
+    //     author: "Voxel Busters",
+    //     footerParser: /© Voxel Busters\d{4}-\d{2}-\d{2}Page \d* \/ \d*/g,
+    //   },
+    // ],
   ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -62,10 +92,10 @@ const config = {
     
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Ads Kit',
+        title: 'Tile',
         logo: {
-          alt: 'Ads Kit logo',
-          src: 'img/SmallIcon.png',
+          alt: 'Site logo',
+          src: '',  //enter image path [add an image in static/img folder and write its path here for example : img/SmallIcon.png]
         },
         items: [
           {
@@ -89,7 +119,7 @@ const config = {
               },
               {
                 label: 'Tutorials',
-                to: 'https://adskit.voxelbusters.com/',
+                to: '', //enter the main url eg:https://adskit.voxelbusters.com/
               },
             ],
           },
@@ -98,7 +128,7 @@ const config = {
             items: [
               {
                 label: 'Support',
-                href: 'https://discord.gg/mp7fsmmC9n',
+                href: '', //enter the support link page
               },
             ],
           },
@@ -111,7 +141,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/voxelbusters/ads-kit-website',
+                href: '', //enter the github repo link
               },
             ],
           },

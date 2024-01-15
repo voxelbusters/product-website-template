@@ -18,8 +18,9 @@ To get started with this project, follow these steps:
 
 ## Usage
 
-After installing the dependencies, you can run the following command to start the development server:
+After installing the dependencies, just update the docusaurus.config.js and config.json file after that just update `docs` folder as per your requirement:
 
+For Starting the Application after above alteration use the below command
 ```bash
 npm start
 ```
